@@ -1,0 +1,10 @@
+html{
+  overflow: hidden;
+}
+
+
+.container.box
+{
+  height: 15vh;
+  top: 30vh;
+}
