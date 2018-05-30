@@ -20,16 +20,16 @@
   </head>
   <body>
   <nav class="navbar is-transparent" role="navigation" aria-label="main navigation">
-    <a class="navbar-item">
+    <a class="navbar-item" href="#home">
       Home
     </a>
-    <a class="navbar-item">
+    <a class="navbar-item" href="#menu">
       Menu
     </a>
-    <a class="navbar-item">
+    <a class="navbar-item" href="#reservations">
       Reservations
     </a>
-    <a class="navbar-item">
+    <a class="navbar-item" href="#about">
       About
     </a>
     <div class="navbar-brand">
@@ -40,7 +40,7 @@
       </a>
     </div>
 </nav>
-<section class="hero" style="height:95vh;">
+<section id="home" class="hero" style="height:95vh;">
   <div class="hero-body has-background-primary">
     <div class="container box has-text-black has-text-centered">
       <h1 class="title">
@@ -52,24 +52,45 @@
     </div>
   </div>
 </section>
-<section class="section">
-  <div class="container has-background-black">
-    <h2 class="has-text-white">This is a menu</h2>
-    <div class="column">
-      <p class="has-text-white">
-        This is a column
-      </p>
+
+<!-- This is the menu section -->
+<section id="menu" class="section" style="height:100vh;">
+  <h1 class="title has-text-white  has-text-centered">This is a our menu</h1>
+  <div class="container">
+
+
+    <!-- Start columns -->
+    <div class="columns has-background-primary has-text-centered">
+
+      <div class="column">
+        <p class="has-text-white">
+          <ul>
+            <li>
+              Name: <span>Pizza</span>
+            </li>
+            <li>
+              Ingredients: <span>List,here,and,here</span>
+            </li>
+            <li>
+              Cost: <span>$10.5</span>
+            </li>
+          </ul>
+        </p>
+      </div>
+      <div class="column">
+        <p class="has-text-white">
+          This is a menu item
+        </p>
+      </div>
+      <div class="column">
+        <p class="has-text-white">
+          This is a menu item
+        </p>
+      </div>
+
     </div>
-    <div class="column">
-      <p class="has-text-white">
-        This is a column
-      </p>
-    </div>
-    <div class="column">
-      <p class="has-text-white">
-        This is a column
-      </p>
-    </div>
+    <!-- End Columns -->
+
   </div>
 
 </section>
